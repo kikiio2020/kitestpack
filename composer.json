@@ -9,10 +9,16 @@
 		}
 	],
 	"minimum-stability" : "dev",
-	"autoload": {
-        "psr-4": {
-            "Kikiio\\kiTestPack\\": "src/"
-        }
-    },
-    "require": {}
+	"autoload" : {
+		"psr-4" : {
+			"Kikiio\\kiTestPack\\" : "src/"
+		}
+	},
+	"extra" : {
+		"laravel" : {
+			"providers" : [
+				"Kikiio\\KiTestPack\\kiTestPackServiceProvider"
+			]
+		}
+	}
 }
