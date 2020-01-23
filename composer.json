@@ -17,7 +17,7 @@
 	"extra" : {
 		"laravel" : {
 			"providers" : [
-				"Kikiio\\KiTestPack\\kiTestPackServiceProvider"
+				"Kikiio\\KiTestPack\\KiTestPackServiceProvider"
 			]
 		}
 	}

@@ -3,7 +3,7 @@ namespace Kikiio\KiTestPack;
 
 use Illuminate\Support\ServiceProvider;
 
-class kiTestPackServiceProvider extends ServiceProvider
+class KiTestPackServiceProvider extends ServiceProvider
 {
     /**
      * Register services.
